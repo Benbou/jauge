@@ -7,5 +7,10 @@ const totalDuration = dueDate - conceptionDate;
 const elapsedDuration = currentDate - conceptionDate;
 
 const percentage = Math.min((elapsedDuration / totalDuration) * 100, 100).toFixed(2);
-document.querySelector('.progress').style.width = `${percentage}%`;
+
+// Animation de la jauge
+setTimeout(() => {
+    document.querySelector('.progress').style.width = `${percentage}%`;
+}, 100);
+
 document.getElementById('percentage').textContent = `${percentage}%`;
