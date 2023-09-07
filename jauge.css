@@ -1,17 +1,17 @@
 .container {
     width: 80%;
-    margin: 100px auto;
+    margin: 150px auto;
     text-align: center;
 }
 
-h1 {
+h1, #percentage {
     font-size: 1.5em;
     margin-bottom: 30px;
 }
 
 .progress-bar {
     width: 100%;
-    background-color: #e0e0e0;
+    background: repeating-linear-gradient(90deg, #e0e0e0, #e0e0e0 10%, white 11%, white 12%);
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -21,7 +21,6 @@ h1 {
     height: 30px;
     width: 0;
     background-color: #FF69B4; /* rose bonbon */
-    border-radius: 10px 0 0 10px;
     transition: width 2s; /* animation de remplissage */
 }
 
@@ -29,10 +28,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
+    bottom: -30px;
+    left: 10%;
+    right: 10%;
+    height: 30px;
     pointer-events: none; /* pour que les marques n'interfèrent pas avec le clic */
 }
 
