@@ -22,7 +22,7 @@ h1, #percentage {
     height: 30px;
     width: 0;
     background-color: #FF69B4; /* rose bonbon */
-    transition: width 1s; /* animation de remplissage */
+    transition: width 2s; /* animation de remplissage */
 }
 
 .marks {
@@ -30,6 +30,7 @@ h1, #percentage {
     justify-content: space-between;
     position: relative;
     margin-top: 5px;
+    padding: 0 4%; /* Ajustement pour aligner les emojis avec les séparations */
     pointer-events: none; /* pour que les marques n'interfèrent pas avec le clic */
 }
 
