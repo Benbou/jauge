@@ -31,13 +31,12 @@ h1, #percentage {
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
-    padding: 0 4%; /* Ajustement pour aligner les emojis avec les séparations */
     pointer-events: none;
 }
 
 .marks span {
     flex: 1;
-    text-align: center;
+    text-align: right;
     line-height: 30px;
     font-size: 1.2em;
 }
