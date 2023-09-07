@@ -7,6 +7,8 @@
 h1, #percentage {
     font-size: 1.5em;
     margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .progress-bar {
